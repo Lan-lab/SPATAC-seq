@@ -36,13 +36,13 @@ wget https://cf.10xgenomics.com/supp/cell-atac/refdata-cellranger-atac-mm10-1.2.
 
 Zebrafish reference (built from the zebrafish GRCz10: GCA_000002035.3):
 
-ftp://ftp.ensembl.org/pub/release-91/fasta/danio_rerio/dna/
+[ftp://ftp.ensembl.org/pub/release-91/fasta/danio_rerio/dna/](ftp://ftp.ensembl.org/pub/release-91/fasta/danio_rerio/dna/)
 
 #### 5. Create a fragment file by sinto
 
 ![Image text](https://github.com/Lan-lab/SPATAC-seq/blob/main/SPATAC-seq_in_Mouse_Organogenesis_or_Zebrafish_Development/bed%20file.png)
 
-
+The fragment files contain chromosome number (column 1), fragment start and end sites (column 2 and 3), cell barcodes (column 4) and duplicates number (column 5).
 
 #### 6. Downstream analysis by ArchR, Signac or SnapATAC.
 
@@ -51,5 +51,7 @@ ArchR: https://github.com/GreenleafLab/ArchR
 Signac: https://stuartlab.org/signac/index.html 
 
 SnapATAC: https://github.com/r3fang/SnapATAC 
+
+
 
 ![Image text](https://github.com/Lan-lab/SPATAC-seq/blob/main/SPATAC-seq_in_Mouse_Organogenesis_or_Zebrafish_Development/Atlas%20of%20zebrafish%20embryogenesis%20and%20mouse%20organogenesis.png)

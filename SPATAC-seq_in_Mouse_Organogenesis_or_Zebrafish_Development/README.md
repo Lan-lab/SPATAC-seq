@@ -36,7 +36,7 @@ wget https://cf.10xgenomics.com/supp/cell-atac/refdata-cellranger-atac-mm10-1.2.
 
 Zebrafish reference (built from the zebrafish GRCz10: GCA_000002035.3):
 
-[Download DNA sequence (GRCz10 (GCA_000002035.3)](https://dec2017.archive.ensembl.org/Danio_rerio/Info/Index)
+[Download DNA sequence (GRCz10; GCA_000002035.3)](https://dec2017.archive.ensembl.org/Danio_rerio/Info/Index)
 
 #### 5. Create a fragment file by sinto
 

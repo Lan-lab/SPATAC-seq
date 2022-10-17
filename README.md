@@ -7,6 +7,8 @@
 
 * Python 3.0
 
+* [BWA](https://github.com/lh3/bwa)
+
 * [FASTX-Toolkit](http://hannonlab.cshl.edu/fastx_toolkit/commandline.html)
 * [Cell Ranger ATAC v1.2](https://support.10xgenomics.com/single-cell-atac/software/downloads/1.2/)
 * [Sinto](https://timoast.github.io/sinto/index.html)

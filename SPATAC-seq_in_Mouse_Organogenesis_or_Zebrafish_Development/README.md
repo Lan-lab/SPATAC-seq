@@ -22,7 +22,7 @@ Raw read 1 > New Read 1: contains the genome sequences
 
 Raw read 2 > New Read 2: contains the genome sequences
 
-#### 3. Attach cell barcodes into the read names of New Read 1 and 2 by sinto
+#### 3. Attach cell barcodes into the read names of New Read 1 and 2 by Sinto
 
 ![Image text](https://github.com/Lan-lab/SPATAC-seq/blob/main/SPATAC-seq_in_Mouse_Organogenesis_or_Zebrafish_Development/barcodes%20in%20read%20name.png)
 
@@ -51,6 +51,8 @@ ArchR: https://github.com/GreenleafLab/ArchR
 Signac: https://stuartlab.org/signac/index.html 
 
 SnapATAC: https://github.com/r3fang/SnapATAC 
+
+
 
 
 

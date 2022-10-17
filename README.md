@@ -1,6 +1,14 @@
-# SPATAC-seq
-## R Markdown
+# #SPATAC-seq: **s**plit-**p**ool ligation-based scATAC-seq method
+## ##Overview of the molecular structure of SPATAC-seq
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+![image-20221017183242703](/Users/sky/Library/Application Support/typora-user-images/image-20221017183242703.png)
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+# ##Dependiencies
+
+* Python 3.0
+
+* FASTX-Toolkit  [click me to FASTX-tools](http://hannonlab.cshl.edu/fastx_toolkit/commandline.html)
+* Cell Ranger ATAC 1.2  [click me to CellRanger](https://support.10xgenomics.com/single-cell-atac/software/downloads/1.2/)
+* Sinto  [click me to Sinto](https://timoast.github.io/sinto/index.html)
+* Signac  [click me to Signac](https://github.com/stuart-lab/signac)
+* ArchR  [click me to ArchR](https://github.com/GreenleafLab/ArchR)

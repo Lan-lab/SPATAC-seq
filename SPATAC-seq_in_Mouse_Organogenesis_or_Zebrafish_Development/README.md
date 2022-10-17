@@ -28,7 +28,7 @@ Raw read 2 > New Read 2: contains the genome sequences
 
 
 
-#### 4. Map by bwa
+#### 4. Map by BWA
 
 Mouse reference (mm10):
 

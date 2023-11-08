@@ -24,7 +24,7 @@ Raw read 2 > New Read 2: contains the genome sequences
 
 #### 3. Attach cell barcodes into the read names of New Read 1 and 2 by Sinto
 
-![Image text](https://github.com/Lan-lab/SPATAC-seq/blob/main//Users/sky/Documents/GitHub/SPATAC-seq/Mouse_Organogenesis_single-cell_oPen_chromatin Atlas_(MOPA)/fastq_preprocessing/barcodes%20in%20read%20name.png)
+![Image text](https://github.com/Lan-lab/SPATAC-seq/blob/main//Users/sky/Documents/GitHub/SPATAC-seq/Mouse_Organogenesis_single-cell_oPen_chromatin_Atlas_(MOPA)/fastq_preprocessing/barcodes%20in%20read%20name.png)
 
 
 
@@ -40,7 +40,7 @@ Zebrafish reference (built from the zebrafish GRCz10: GCA_000002035.3):
 
 #### 5. Create a fragment file by sinto
 
-![Image text](https://github.com/Lan-lab/SPATAC-seq/blob/main/Users/sky/Documents/GitHub/SPATAC-seq/Mouse_Organogenesis_single-cell_oPen_chromatin Atlas_(MOPA)/fastq_preprocessing/bed%20file.png)
+![Image text](https://github.com/Lan-lab/SPATAC-seq/blob/main/Users/sky/Documents/GitHub/SPATAC-seq/Mouse_Organogenesis_single-cell_oPen_chromatin_Atlas_(MOPA)/fastq_preprocessing/bed%20file.png)
 
 The fragment files contain chromosome number (column 1), fragment start and end sites (column 2 and 3), cell barcodes (column 4) and duplicates number (column 5).
 
@@ -56,4 +56,4 @@ SnapATAC: https://github.com/r3fang/SnapATAC
 
 
 
-![Image text](https://github.com/Lan-lab/SPATAC-seq/blob/main/Users/sky/Documents/GitHub/SPATAC-seq/Mouse_Organogenesis_single-cell_oPen_chromatin Atlas_(MOPA)/fastq_preprocessing/Atlas%20of%20zebrafish%20embryogenesis%20and%20mouse%20organogenesis.png)
+![Image text](https://github.com/Lan-lab/SPATAC-seq/blob/main/Users/sky/Documents/GitHub/SPATAC-seq/Mouse_Organogenesis_single-cell_oPen_chromatin_Atlas_(MOPA)/fastq_preprocessing/Atlas%20of%20zebrafish%20embryogenesis%20and%20mouse%20organogenesis.png)

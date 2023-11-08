@@ -1,4 +1,4 @@
-## Map the accessible chromatin landscape of mouse organogenesis ** **at** **single** **cell** **resolution** **by** SPATAC-seq
+## Map the accessible chromatin landscape of mouse organogenesis **at** **single** **cell** **resolution** **by** SPATAC-seq
 
 Note: Put all script files, barcode files, and Raw Fastq files into one same folder. Then run Raw_fastq_demultiplexing_map_fragment.sh to process Raw Fastq files to create a fragement file.
 

@@ -30,13 +30,11 @@ Raw read 2 > New Read 2: contains the genome sequences
 
 #### 4. Map by BWA
 
-Mouse reference (mm10):
 
-wget https://cf.10xgenomics.com/supp/cell-atac/refdata-cellranger-atac-mm10-1.2.0.tar.gz
+Zebrafish reference (built from the zebrafish GRCz11: GCA_000002035.4):
 
-Zebrafish reference (built from the zebrafish GRCz10: GCA_000002035.3):
+[Download DNA sequence (GRCz11; GCA_000002035.4)](https://ftp.ensembl.org/pub/release-110/fasta/danio_rerio/dna/)
 
-[Download DNA sequence (GRCz10; GCA_000002035.3)](https://dec2017.archive.ensembl.org/Danio_rerio/Info/Index)
 
 #### 5. Create a fragment file by sinto
 

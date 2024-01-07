@@ -1,4 +1,5 @@
-# Figure 7 focused on pigment and notochord development 
+# Figure 7 
+# focused on pigment and notochord development 
 #
 # analyse the differentiation trajectory of pigment cells
 setwd("/home/sunkeyong/ZEPA/Pigment")

@@ -665,7 +665,7 @@ chr_rm <- read.table("/home/sunkeyong/ZEPA/GRCz11_anno/GRCz11_toplevel.chromosom
 addArchRThreads(threads = 12) 
 getArchRChrPrefix()
 # load bed files
-BedFiles <- c("/home/sunkeyong/ZEPA_revision1/0808/sub/retina.T/retina.bed.gz")
+BedFiles <- c("/home/sunkeyong/ZEPA/retina/retina.bed.gz")
 names(BedFiles) = c("retina")
 # Create ArchR arrow file for downstream analysis
 ArrowFiles <- createArrowFiles(
@@ -1093,7 +1093,7 @@ UMAP.EW.merge <- rbind(zhpf4to5.UMAP.EW,zhpf5to6.UMAP.EW,zhpf6to7.UMAP.EW,zhpf7t
 #
 dim(UMAP.EW.merge)
 head(UMAP.EW.merge)
-write.csv(UMAP.EW.merge,file = "/home/sunkeyong/ZEPA_revision1/0628/Tree/UMAP.EW.merge.csv")
+write.csv(UMAP.EW.merge,file = "/home/sunkeyong/ZEPA/Tree/UMAP.EW.merge.csv")
 # used software Cytoscape to generate a directed acyclic graph 
 #
 bin100.values <- c()
@@ -1155,7 +1155,7 @@ n.length <- nrow(zhpf4to5.seurat.4hpf.IDmeta)
 m.length <- nrow(zhpf4to5.seurat.5hpf.IDmeta)
 #
 cor.matrix <- c()
-nnn <- 10 ###重复次数
+nnn <- 500 ###repeat times
 for (hh in 1:nnn) {
   ED.matrix2 <- ED.matrix[sample(1:nrow(ED.matrix),nrow(ED.matrix)*0.8),sample(1:ncol(ED.matrix),ncol(ED.matrix)*0.8)]
   print(hh)
@@ -1241,7 +1241,7 @@ LSI.EW.merge <- rbind(zhpf4to5.LSI.EW,zhpf5to6.LSI.EW,zhpf6to7.LSI.EW,zhpf7to8.L
 dim(LSI.EW.merge)
 head(LSI.EW.merge)
 write.csv(LSI.EW.merge,file = "/home/sunkeyong/ZEPA_revision1/0628/Tree/LSI.EW.merge.csv")
-# used software Cytoscape to generate a directed acyclic graph 
+# then used software Cytoscape to generate a directed acyclic graph 
 # plot the distribution
 bin100.values <- c()
 bin100 <- 1:100

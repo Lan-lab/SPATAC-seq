@@ -361,17 +361,17 @@ save(chromHMM.type.hpf24,file = "/home/sunkeyong/ZEPA/DCC/cal_chromHMM/chromHMM.
 # repeat above procedures for the data at 4 hpf, 8 hpf, 12 hpf, 24 hpf, 48 hpf
 # 
 # then loading all results
-load("/home/sunkeyong/ZEPA_revision1/DCC/cal_chromHMM/chromHMM.type.hpf4.RData")
-load("/home/sunkeyong/ZEPA_revision1/DCC/cal_chromHMM/chromHMM.type.hpf8.RData")
-load("/home/sunkeyong/ZEPA_revision1/DCC/cal_chromHMM/chromHMM.type.hpf12.RData")
-load("/home/sunkeyong/ZEPA_revision1/DCC/cal_chromHMM/chromHMM.type.hpf24.RData")
-load("/home/sunkeyong/ZEPA_revision1/DCC/cal_chromHMM/chromHMM.type.hpf48.RData")
+load("/home/sunkeyong/ZEPA/DCC/cal_chromHMM/chromHMM.type.hpf4.RData")
+load("/home/sunkeyong/ZEPA/DCC/cal_chromHMM/chromHMM.type.hpf8.RData")
+load("/home/sunkeyong/ZEPA/DCC/cal_chromHMM/chromHMM.type.hpf12.RData")
+load("/home/sunkeyong/ZEPA/DCC/cal_chromHMM/chromHMM.type.hpf24.RData")
+load("/home/sunkeyong/ZEPA/DCC/cal_chromHMM/chromHMM.type.hpf48.RData")
 #
-hpf4.PADREs <- import("/home/sunkeyong/ZEPA_revision1/DCC/raw_file_from_UCSC/Dome_PADREs.bb")
-hpf8.PADREs <- import("/home/sunkeyong/ZEPA_revision1/DCC/raw_file_from_UCSC/Epi75_PADREs.bb")
-hpf12.PADREs <- import("/home/sunkeyong/ZEPA_revision1/DCC/raw_file_from_UCSC/Hpf12_PADREs.bb")
-hpf24.PADREs <- import("/home/sunkeyong/ZEPA_revision1/DCC/raw_file_from_UCSC/Prim5_PADREs.bb")
-hpf48.PADREs <- import("/home/sunkeyong/ZEPA_revision1/DCC/raw_file_from_UCSC/LongPec_PADREs.bb")
+hpf4.PADREs <- import("/home/sunkeyong/ZEPA/DCC/raw_file_from_UCSC/Dome_PADREs.bb")
+hpf8.PADREs <- import("/home/sunkeyong/ZEPA/DCC/raw_file_from_UCSC/Epi75_PADREs.bb")
+hpf12.PADREs <- import("/home/sunkeyong/ZEPA/DCC/raw_file_from_UCSC/Hpf12_PADREs.bb")
+hpf24.PADREs <- import("/home/sunkeyong/ZEPA/DCC/raw_file_from_UCSC/Prim5_PADREs.bb")
+hpf48.PADREs <- import("/home/sunkeyong/ZEPA/DCC/raw_file_from_UCSC/LongPec_PADREs.bb")
 #
 zPADREs <- as.data.frame(cbind(table(hpf4.PADREs$name),
                                table(hpf8.PADREs$name),
@@ -465,7 +465,7 @@ ggplot(chromHMM.type.merge, aes(x=hpf,y=Var1)) +
   )) +
   scale_color_gradientn('NES',
                         colors=my_palette) +
-  scale_size_continuous(range = c(1,4)) + #圆点的大小范围
+  scale_size_continuous(range = c(1,4)) + #scale of point sizes
   theme_bw() +
   theme(panel.grid.minor = element_blank(),
         panel.grid.major = element_blank(),

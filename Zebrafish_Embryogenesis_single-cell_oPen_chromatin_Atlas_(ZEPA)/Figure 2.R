@@ -1,5 +1,5 @@
 # Figure 2
-# cell type annotaion based on label transfer 
+# cell type annotation 
 # taking 10 hpf as an example 
 setwd("/home/sunkeyong/ZEPA/OBO/hpf10")
 #
@@ -1410,7 +1410,7 @@ p <- DimPlot(hpf10,label = F,repel = T,reduction = "tsne",cols = "#6FC8CB",pt.si
   theme(panel.background = element_rect( colour = "black", size = 0))+
   theme(panel.border = element_blank())
 p
-ggsave("/home/sunkeyong/ZEPA_revision1/OBO/hpf10.scRNAseq.tSNE.png",plot=p,device="png",dpi=300,units = "cm",width = 13,height = 13)
+ggsave("/home/sunkeyong/ZEPA/OBO/hpf10.scRNAseq.tSNE.png",plot=p,device="png",dpi=300,units = "cm",width = 13,height = 13)
 ##
 #
 # for merge all scRNA-seq data for Figure S3A
@@ -1577,7 +1577,7 @@ FigureS3A$sample <- as.character(hpfall@active.ident)
 head(FigureS3A)
 write.csv(FigureS3A,file = "/home/sunkeyong/ZEPA/SourceData/FigS3A.csv")
 #
-write.csv(zhpf10$predictedScore_1,file = "/home/sunkeyong/ZEPA_revision1/SourceData/FigS3B.csv")
+write.csv(zhpf10$predictedScore_1,file = "/home/sunkeyong/ZEPA/SourceData/FigS3B.csv")
 #
 FigureS3G <- cbind(levels(hpf10.2.averages),cellratio.metadata.tmp2)
 head(FigureS3G)
@@ -1615,7 +1615,7 @@ write.csv(cc1.t[23:44,1:22],file = "/home/sunkeyong/ZEPA/SourceData/Fig2H.csv")
 ##################################################################################################################################
 ##################################################################################################################################
 # restart R 
-# cell type annotaion based on marker genes
+# cell type annotation based on marker genes
 # taking 72 hpf as an example 
 setwd("/home/sunkeyong/ZEPA/OBO/hpf72")
 #

@@ -1,5 +1,5 @@
 # Figure 5
-# analyse the MOTIF
+# analyse the MOTIF activity
 # taking the 24 hpf as an example
 setwd("/home/sunkeyong/ZEPA/OBO/hpf24")
 #
@@ -81,7 +81,7 @@ p <- ggPoint(
   ylim = c(0, quantile(df[,2], probs = 0.99))
 ) + geom_hline(yintercept = 5, lty = "dashed") + geom_vline(xintercept = log10(1000), lty = "dashed")
 p
-#
+# 
 zhpf24 <- addIterativeLSI(ArchRProj = zhpf24,
                           useMatrix = "TileMatrix", 
                           name = "Tile_IterativeLSI_M1", 

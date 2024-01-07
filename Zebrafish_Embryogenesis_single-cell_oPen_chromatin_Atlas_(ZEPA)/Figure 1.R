@@ -7,17 +7,17 @@ addArchRGenome("hg38")
 library(BSgenome.Hsapiens.UCSC.hg38)
 addArchRThreads(threads = 25) 
 ###
-Bed_files= c("human/SPATACseqSL1.sort.bam.fragments.filter.sort.bed.gz",
-             "human/SPATACseqSL2.sort.bam.fragments.filter.sort.bed.gz",
-             "human/SPATACseqSL3.sort.bam.fragments.filter.sort.bed.gz",
-             "human/SPATACseqSL4.sort.bam.fragments.filter.sort.bed.gz",
-             "human/SPATACseqSL5.sort.bam.fragments.filter.sort.bed.gz",
-             "human/SPATACseqSL6.sort.bam.fragments.filter.sort.bed.gz",
-             "human/SPATACseqSL7.sort.bam.fragments.filter.sort.bed.gz",
-             "human/SPATACseqSL8.sort.bam.fragments.filter.sort.bed.gz",
-             "human/Jason.sort.bed.gz",
-             "human/T_C1.sort.bed.gz",
-             "human/T_plate.sort.bed.gz")
+Bed_files= c("./human/SPATACseqSL1.sort.bam.fragments.filter.sort.bed.gz",
+             "./human/SPATACseqSL2.sort.bam.fragments.filter.sort.bed.gz",
+             "./human/SPATACseqSL3.sort.bam.fragments.filter.sort.bed.gz",
+             "./human/SPATACseqSL4.sort.bam.fragments.filter.sort.bed.gz",
+             "./human/SPATACseqSL5.sort.bam.fragments.filter.sort.bed.gz",
+             "./human/SPATACseqSL6.sort.bam.fragments.filter.sort.bed.gz",
+             "./human/SPATACseqSL7.sort.bam.fragments.filter.sort.bed.gz",
+             "./human/SPATACseqSL8.sort.bam.fragments.filter.sort.bed.gz",
+             "./human/Jason.sort.bed.gz",
+             "./human/T_C1.sort.bed.gz",
+             "./human/T_plate.sort.bed.gz")
 names(Bed_files) = c("SPATACseqSL1","SPATACseqSL2","SPATACseqSL3","SPATACseqSL4",
                      "SPATACseqSL5","SPATACseqSL6","SPATACseqSL7","SPATACseqSL8",
                      "Jason","T_C1","T_plate")
@@ -261,17 +261,17 @@ library(BSgenome.Mmusculus.UCSC.mm10)
 library(TxDb.Mmusculus.UCSC.mm10.knownGene)
 addArchRThreads(threads = 13)
 ###
-Bed_files= c("mouse/SPATACseqSL1.sort.bam.fragments.filter.sort.bed.gz",
-             "mouse/SPATACseqSL2.sort.bam.fragments.filter.sort.bed.gz",
-             "mouse/SPATACseqSL3.sort.bam.fragments.filter.sort.bed.gz",
-             "mouse/SPATACseqSL4.sort.bam.fragments.filter.sort.bed.gz",
-             "mouse/SPATACseqSL5.sort.bam.fragments.filter.sort.bed.gz",
-             "mouse/SPATACseqSL6.sort.bam.fragments.filter.sort.bed.gz",
-             "mouse/SPATACseqSL7.sort.bam.fragments.filter.sort.bed.gz",
-             "mouse/SPATACseqSL8.sort.bam.fragments.filter.sort.bed.gz",
-             "mouse/Jason.sort.bed.gz",
-             "mouse/T_C1.sort.bed.gz",
-             "mouse/T_plate.sort.bed.gz")
+Bed_files= c("./mouse/SPATACseqSL1.sort.bam.fragments.filter.sort.bed.gz",
+             "./mouse/SPATACseqSL2.sort.bam.fragments.filter.sort.bed.gz",
+             "./mouse/SPATACseqSL3.sort.bam.fragments.filter.sort.bed.gz",
+             "./mouse/SPATACseqSL4.sort.bam.fragments.filter.sort.bed.gz",
+             "./mouse/SPATACseqSL5.sort.bam.fragments.filter.sort.bed.gz",
+             "./mouse/SPATACseqSL6.sort.bam.fragments.filter.sort.bed.gz",
+             "./mouse/SPATACseqSL7.sort.bam.fragments.filter.sort.bed.gz",
+             "./mouse/SPATACseqSL8.sort.bam.fragments.filter.sort.bed.gz",
+             "./mouse/Jason.sort.bed.gz",
+             "./mouse/T_C1.sort.bed.gz",
+             "./mouse/T_plate.sort.bed.gz")
 names(Bed_files) = c("SPATACseqSL1","SPATACseqSL2","SPATACseqSL3","SPATACseqSL4",
                      "SPATACseqSL5","SPATACseqSL6","SPATACseqSL7","SPATACseqSL8",
                      "Jason","T_C1","T_plate")

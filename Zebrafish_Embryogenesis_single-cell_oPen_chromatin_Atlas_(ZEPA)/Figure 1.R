@@ -1,4 +1,4 @@
-# Figure 1
+# Figure 1 
 # the species mixing experiment
 setwd("/home/sunkeyong/SPATAC/Figure1/K562/")
 library(Seurat)

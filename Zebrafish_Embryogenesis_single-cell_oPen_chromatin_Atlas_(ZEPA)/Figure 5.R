@@ -66,7 +66,7 @@ zhpf24 <- ArchRProject(ArrowFiles = ArrowFiles,
                        genomeAnnotation = genomeAnnotation,
                        copyArrows = T)
 #
-zhpf24
+zhpf24 
 #
 df <- getCellColData(zhpf24, select = c("log10(nFrags)", "TSSEnrichment"))
 df

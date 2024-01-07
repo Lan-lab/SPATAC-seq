@@ -1,4 +1,4 @@
-# Figure 4
+# Figure 4 
 # analyse the peak
 setwd("/home/sunkeyong/ZEPA/Peakset")
 #

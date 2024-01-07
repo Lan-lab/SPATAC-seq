@@ -1,4 +1,4 @@
-# Figure 2
+# Figure 2 
 # cell type annotation 
 # taking 10 hpf as an example 
 setwd("/home/sunkeyong/ZEPA/OBO/hpf10")
